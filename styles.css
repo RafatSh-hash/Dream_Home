@@ -5,4 +5,74 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: #000;
+    color: white;
+}
+
+#logo {
+    margin: 0 1.5em;
+}
+
+#logo span {
+    color: #fd665e;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 2em;
+}
+
+.nav-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav_option a {
+    margin-right: 2em;
+    text-decoration: none;
+    color: white;
+    margin-left: 2em;
+
+}
+
+.nav-1 img {
+    width: 3em;
+    height: 3em;
+    margin-right: 1.5em;
+}
+
+.nav-1 button {
+    width: 6em;
+    margin-right: 2em;
+    height: 3em;
+    border-radius: 5px;
+    font-size: 1em;
+    border: none;
+
+}
+
+#signIn {
+    background-color: transparent;
+    color: #fff;
+    border: #000;
+}
+
+#signIn:hover {
+    background-color: #fd665e;
+    transition: all 0.4s;
+}
+
+#signUp {
+    background-color: #fd665e;
+    color: white;
+}
+
+#signUp:hover {
+    background-color: white;
+    color: #fd665e;
+    transition: all 0.4s;
 }
