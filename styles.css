@@ -77,6 +77,12 @@ body {
     transition: all 0.4s;
 }
 
+.bannerSection div p {
+    font-size: 1.25em;
+    margin-top: 5em;
+}
+
+
 #Consultation {
     /* width: 6em; */
     margin-right: 2em;
@@ -135,7 +141,7 @@ body {
 
 .roomContainer {
     width: 90%;
-    margin: 10em auto 10em;
+    margin: 15em auto;
     /* margin-top: 10em; */
 }
 
@@ -159,6 +165,45 @@ body {
 .roomImageContainer div img:hover {
     scale: 1.1;
 }
+
+.needsContainer {
+    width: 90%;
+    margin-top: 10em;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.needsCard {
+    width: 35%;
+    justify-content: center;
+}
+
+.needsCard h1 {
+    margin-left: 1.5em;
+    font-size: 3em;
+}
+
+.needs {
+    display: flex;
+    margin: 2em 0;
+    align-items: center;
+    width: 90%;
+}
+
+.needs img {
+    margin: 1em;
+}
+
+.ConsultationB2 {
+    width: 10%;
+    margin-top: 4em;
+    margin: auto;
+}
+
+
 
 
 
