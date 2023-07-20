@@ -20,7 +20,7 @@ body {
 .nav {
     display: flex;
     justify-content: space-between;
-    width: 90%;
+    width: 95%;
     margin: auto;
     margin-top: 2em;
 }
@@ -75,4 +75,65 @@ body {
     background-color: white;
     color: #fd665e;
     transition: all 0.4s;
+}
+
+#Consultation {
+    /* width: 6em; */
+    margin-right: 2em;
+    margin-top: 2em;
+    padding: 1em;
+    height: 3em;
+    border-radius: 5px;
+    font-size: 1em;
+    border: none;
+    background-color: #fd665e;
+    color: white;
+    cursor: pointer;
+
+}
+
+#Consultation:hover {
+    transition: all 0.4s;
+    transform: scale(1.1);
+
+}
+
+.bannerSection {
+    /* margin-top: 8em; */
+    width: 80%;
+    margin: 8em auto;
+}
+
+.bannerSection h1 {
+    /* margin-left: 3.7em; */
+    font-size: 5em;
+    line-height: 1em;
+
+}
+
+.bannerSection h1 span {
+    color: #fd665e;
+}
+
+.bannerSection1 {
+    /* width: 90%; */
+    margin: 4em auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+
+
+
+/* Responsive */
+@media screen and (max-width: 425px) {
+    .nav_option {
+        display: none;
+    }
 }
