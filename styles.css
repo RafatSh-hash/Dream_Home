@@ -123,8 +123,42 @@ body {
 
 }
 
+.roomImageContainer {
+    width: 90%;
+    height: 450px;
+    margin: 1.5em auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8em;
 
+}
 
+.roomContainer {
+    width: 90%;
+    margin: 10em auto 10em;
+    /* margin-top: 10em; */
+}
+
+.roomContainer h1 {
+    font-size: 3em;
+    margin-left: 1.5em;
+}
+
+.roomImageContainer div {
+
+    width: 100%;
+
+}
+
+.roomImageContainer div img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.roomImageContainer div img:hover {
+    scale: 1.1;
+}
 
 
 
