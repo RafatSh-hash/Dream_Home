@@ -117,6 +117,7 @@ body {
 
 }
 
+
 .bannerSection h1 span {
     color: #fd665e;
 }
@@ -340,4 +341,66 @@ body {
     .nav_option {
         display: none;
     }
+
+    .bannerSection h1 {
+
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .bannerSection {
+        width: 90%;
+        margin: 4em auto;
+    }
+
+    #bannerImg {
+        width: 100%;
+    }
+
+    .bannerSection1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .roomContainer h1 {
+        font-size: 3em;
+        /* margin-left: 1.5em; */
+        text-align: center;
+
+    }
+
+    .needsContainer {
+        width: 90%;
+        margin-top: 10em;
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2em;
+    }
+
+    .needsCard h1 {
+
+        margin-left: 0;
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .needsCard {
+        width: 100%;
+        margin: auto;
+    }
+
+    .needImage {
+        width: 90%;
+    }
+
+    .needsCard img {
+        width: 100%;
+    }
+
+    #a {
+        display: none;
+    }
+
 }
