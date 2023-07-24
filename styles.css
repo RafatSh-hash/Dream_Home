@@ -9,6 +9,15 @@ body {
     color: white;
 }
 
+img {
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+img:hover {
+    scale: 1.1;
+}
+
 #logo {
     margin: 0 1.5em;
 }
@@ -198,6 +207,7 @@ body {
     padding: 1em;
     border-radius: 10px;
     background-color: #949494;
+    margin: 2em 0;
 }
 
 .needs img {
@@ -319,6 +329,14 @@ body {
     margin: 10em auto 5em auto;
 }
 
+.logoText span {
+    color: #fd665e;
+}
+
+#logoText1 {
+    display: none;
+}
+
 
 ::-webkit-scrollbar {
     width: 10px;
@@ -384,12 +402,13 @@ body {
 
 
     .needsContainer {
-        width: 90%;
+        width: 85%;
         margin-top: 10em;
         margin: auto;
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+        padding: 0.5em;
 
     }
 
@@ -447,8 +466,8 @@ body {
     }
 
     .reviewContainer {
-
-        width: 100%;
+        margin: 5em auto;
+        width: 90%;
         /* margin: 2em; */
         /* margin: 4em auto; */
         padding: 0 1em;
@@ -554,5 +573,28 @@ body {
 
     .partnersHeadline h1 {
         font-size: 2em;
+    }
+
+    .home {
+        margin-top: 2em;
+    }
+
+    .home .textHome h1 {
+        font-size: 2em;
+        text-align: center
+    }
+
+    .footLogo {
+        display: none;
+
+    }
+
+    #logoText1 {
+        display: block;
+        text-align: center;
+    }
+
+    #logoText1 span {
+        color: #fd665e;
     }
 }
