@@ -351,12 +351,12 @@ img:hover {
 
 
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(to bottom, #FD665E, white);
+    background: linear-gradient(to top, #FD665E, white);
     border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: linear-gradient(to bottom, white, #FD665E);
+    background: linear-gradient(to bottom, #FD665E, white);
 
 }
 
